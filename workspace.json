@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "projects": {
+    "demo": "apps/demo",
+    "demo-angular": "apps/demo-angular",
+    "nativescript-qr-generator": "packages/nativescript-qr-generator"
+  }
+}

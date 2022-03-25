@@ -1,0 +1,72 @@
+{
+  "root": "packages/nativescript-qr-generator",
+  "projectType": "library",
+  "sourceRoot": "packages/nativescript-qr-generator",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "options": {
+        "outputPath": "dist/packages/nativescript-qr-generator",
+        "tsConfig": "packages/nativescript-qr-generator/tsconfig.json",
+        "packageJson": "packages/nativescript-qr-generator/package.json",
+        "main": "packages/nativescript-qr-generator/index.d.ts",
+        "assets": [
+          "packages/nativescript-qr-generator/*.md",
+          "packages/nativescript-qr-generator/index.d.ts",
+          "LICENSE",
+          {
+            "glob": "**/*",
+            "input": "packages/nativescript-qr-generator/platforms/",
+            "output": "./platforms/"
+          }
+        ],
+        "dependsOn": [
+          {
+            "target": "build.all",
+            "projects": "dependencies"
+          }
+        ]
+      }
+    },
+    "build.all": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "commands": [
+          "node tools/scripts/build-finish.ts nativescript-qr-generator"
+        ],
+        "parallel": false
+      },
+      "outputs": [
+        "dist/packages/nativescript-qr-generator"
+      ],
+      "dependsOn": [
+        {
+          "target": "build.all",
+          "projects": "dependencies"
+        },
+        {
+          "target": "build",
+          "projects": "self"
+        }
+      ]
+    },
+    "focus": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "commands": [
+          "nx g @nativescript/plugin-tools:focus-packages nativescript-qr-generator"
+        ],
+        "parallel": false
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "packages/nativescript-qr-generator/**/*.ts"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
