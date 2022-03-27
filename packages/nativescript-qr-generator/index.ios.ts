@@ -13,12 +13,12 @@ export class QrGenerator {
 
     if (options.color) {
       const uiColor = new Color(options.color);
-      qr.color = uiColor.ios.CIColor;
+      qr.color = new CIColor({ CGColor: uiColor.ios.CGColor });
     }
 
     if (options.backgroundColor) {
       const uiBackgroundColor = new Color(options.backgroundColor);
-      qr.backgroundColor = uiBackgroundColor.ios.CIColor;
+      qr.backgroundColor = new CIColor({ CGColor: uiBackgroundColor.ios.CGColor });
     }
     if(options.logo) {
       try {

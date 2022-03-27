@@ -1,7 +1,7 @@
 {
   "name": "@erodr/nativescript-qr-generator",
   "version": "1.0.0",
-  "description": "Add a plugin description",
+  "description": "A NativeScript plugin for generating Qr code images.",
   "main": "index",
   "typings": "index.d.ts",
   "nativescript": {
@@ -25,6 +25,13 @@
     "name": "Eduardo Rodriguez",
     "email": "erodriguezh@users.noreply.github.com"
   },
+	"contributors": [
+		{
+			"name": "Kefah BADER ALDIN",
+			"email": "kefah.bader@gmail.com",
+			"url": "https://github.com/kefahB"
+		}
+	],
   "bugs": {
     "url": "https://github.com/erodriguezh/nsplugins/issues"
   },
