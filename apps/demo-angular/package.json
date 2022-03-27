@@ -2,7 +2,7 @@
   "main": "./src/main.ts",
   "dependencies": {
     "@nativescript/core": "file:../../node_modules/@nativescript/core",
-    "@erodr/nativescript-qr-generator": "file:../../dist/packages/nativescript-qr-generator"
+    "nativescript-qr-generator": "file:../../dist/packages/nativescript-qr-generator"
   },
   "devDependencies": {
     "@nativescript/android": "~8.2.0",

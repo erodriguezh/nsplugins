@@ -1,6 +1,6 @@
 import { EventData, Page, ImageSource, Image } from '@nativescript/core';
 import { DemoSharedNativescriptQrGenerator } from '@demo/shared';
-import { QrGenerator } from '@erodr/nativescript-qr-generator';
+import { QrGenerator } from 'nativescript-qr-generator';
 
 export function navigatingTo(args: EventData) {
 	const page = <Page>args.object;

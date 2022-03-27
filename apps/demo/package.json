@@ -5,7 +5,7 @@
   "repository": "<fill-your-repository-here>",
   "dependencies": {
     "@nativescript/core": "file:../../node_modules/@nativescript/core",
-    "@erodr/nativescript-qr-generator": "file:../../packages/nativescript-qr-generator"
+    "nativescript-qr-generator": "file:../../packages/nativescript-qr-generator"
   },
   "devDependencies": {
     "@nativescript/android": "~8.2.0",

@@ -1,11 +1,11 @@
-# @erodr/\* plugins
+# Plugins
 
 ```sh
   npm run setup
   npm start
 ```
 
-- [@erodr/nativescript-qr-generator DOCS](packages/nativescript-qr-generator/README.md)
+- [nativescript-qr-generator DOCS](packages/nativescript-qr-generator/README.md)
 
 ## How to use?
 
