@@ -1,22 +1,22 @@
 # @erodr/\* plugins
 
+```sh
+  npm run setup
+  npm start
 ```
-npm run setup
-npm start
-```
 
-- [@erodr/nativescript-qr-generator](packages/nativescript-qr-generator/README.md)
+- [@erodr/nativescript-qr-generator DOCS](packages/nativescript-qr-generator/README.md)
 
-# How to use?
+## How to use?
 
-This workspace manages the suite of plugins listed above. 
+This workspace manages the suite of plugins listed above.
 
 In general, when in doubt with what to do, just `npm start`.
 
 ## How to add a new package to workspace?
 
-```
-npm run add
+```sh
+  npm run add
 ```
 
 At the prompt, enter the name of the new package.
@@ -30,16 +30,16 @@ At the prompt, enter the name of the new package.
 
 ## How to add Angular compatibility to a package
 
-```
-npm run add-angular
+```sh
+  npm run add-angular
 ```
 
 At the prompt, enter the name of the package to add an `angular` folder to it with the necessary boilerplate to provide Angular support to the package.
 
 ## How to focus on just 1 package to develop in isolation
 
-```
-npm start
+```sh
+  npm start
 ```
 
 - Choose the focus commands for the package you wish to focus on and hit enter.
@@ -49,8 +49,8 @@ Note: *good to always clean the demo you plan to run after focusing. (You can cl
 
 ## How to publish packages?
 
-```
-npm run publish-packages
+```sh
+  npm run publish-packages
 ```
 
 - You will be prompted for the package names to publish. Leaving blank and hitting enter will publish them all.

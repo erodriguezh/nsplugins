@@ -5,8 +5,8 @@ import { NativeScriptRouterModule } from '@nativescript/angular';
 import { HomeComponent } from './home.component';
 
 const routes: Routes = [
-   { path: '', redirectTo: '/home', pathMatch: 'full' },
-   { path: 'home', component: HomeComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
 	{ path: 'nativescript-qr-generator', loadChildren: () => import('./plugin-demos/nativescript-qr-generator.module').then(m => m.NativescriptQrGeneratorModule) }
 ];
 
