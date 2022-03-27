@@ -25,13 +25,13 @@
     "name": "Eduardo Rodriguez",
     "email": "erodriguezh@users.noreply.github.com"
   },
-	"contributors": [
-		{
-			"name": "Kefah BADER ALDIN",
-			"email": "kefah.bader@gmail.com",
-			"url": "https://github.com/kefahB"
-		}
-	],
+  "contributors": [
+    {
+      "name": "Kefah BADER ALDIN",
+      "email": "kefah.bader@gmail.com",
+      "url": "https://github.com/kefahB"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/erodriguezh/nsplugins/issues"
   },
