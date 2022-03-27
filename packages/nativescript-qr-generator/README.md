@@ -7,7 +7,7 @@ NativeScript-Qr-Generator is a plugin for NativeScript which generates Qr code i
 Go to your app's root folder and execute:
 
 ```javascript
-ns plugin add @erodr/nativescript-qr-generator
+ns plugin add nativescript-qr-generator
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ ns plugin add @erodr/nativescript-qr-generator
 
 ```ts
 import { Observable, ImageSource, Image } from '@nativescript/core';
-import { QrGenerator } from '@erodr/nativescript-qr-generator';
+import { QrGenerator } from 'nativescript-qr-generator';
 
 export class HelloWorldModel extends Observable {
   private _counter: number

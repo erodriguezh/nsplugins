@@ -1,7 +1,7 @@
 import { Component, NgZone } from '@angular/core';
 import { DemoSharedNativescriptQrGenerator } from '@demo/shared';
 import { Image, ImageSource } from "@nativescript/core";
-import { QrGenerator } from '@erodr/nativescript-qr-generator';
+import { QrGenerator } from 'nativescript-qr-generator';
 
 @Component({
 	selector: 'demo-nativescript-qr-generator',

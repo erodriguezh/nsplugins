@@ -63,11 +63,11 @@ module.exports = {
     // packages
     // build output is always in dist/packages
     '@erodr': {
-      // @erodr/nativescript-qr-generator
+      // nativescript-qr-generator
 			'nativescript-qr-generator': {
 				build: {
 					script: 'nx run nativescript-qr-generator:build.all',
-					description: '@erodr/nativescript-qr-generator: Build',
+					description: 'nativescript-qr-generator: Build',
 				},
 			},
 			'build-all': {
@@ -82,7 +82,7 @@ module.exports = {
     focus: {
       'nativescript-qr-generator': {
 				script: 'nx run nativescript-qr-generator:focus',
-				description: 'Focus on @erodr/nativescript-qr-generator',
+				description: 'Focus on nativescript-qr-generator',
 			},
 			reset: {
         script: 'nx g @erodr/plugin-tools:focus-packages',

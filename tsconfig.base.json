@@ -29,7 +29,7 @@
       "@erodr/*": [
         "packages/*"
       ],
-      "@erodr/nativescript-qr-generator": [
+      "nativescript-qr-generator": [
         "packages/nativescript-qr-generator/index.d.ts"
       ]
     }
